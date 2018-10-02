@@ -37,7 +37,7 @@ public class ActionListenerSample2 {
             public void actionPerformed(ActionEvent e) {
             JOptionPane.showMessageDialog(null, "HelloWorld");    
         }
-    }
+    });
         //////////////////////////////////////////////////////
         frame.add(button);
         
