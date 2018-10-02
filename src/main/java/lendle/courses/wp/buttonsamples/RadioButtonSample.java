@@ -26,13 +26,14 @@ public class RadioButtonSample {
         JFrame frame = new JFrame();
         frame.setSize(800, 600);
         frame.setLayout(new FlowLayout());
+        
         JRadioButton radio1 = new JRadioButton("radio1");
         JRadioButton radio2 = new JRadioButton("radio2");
         
         frame.add(radio1);
         frame.add(radio2);
         //建立 ButtonGroup，把 radio1, radio2 加到 ButtonGroup
-        
+       
         ////////////////////////////////////////////////////
         
         frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
